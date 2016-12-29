@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shorcut it out - How to use Android App Shortcuts and Improve Usability
+title: Shorcut it out - How to use Android App Shortcuts and Improve User Experience
 ---
 Introduced in Android 7.1 Nougat (API level 25), App Shortcuts allow users a new way to interact with your apps from the launcher. You can define static shortcuts in xml and dynamic shorcuts in code using the ShortcutManager API.
 
@@ -121,8 +121,9 @@ If your app allows backup, dynamic shortcuts aren't preserved on restore. The An
 
 ### Further Reading
 
+* [Full source for this demo available on GitHub][github]
 * [Android Developers App Shortcuts Documentation][docs]
 
 [design-guidelines]:	//commondatastorage.googleapis.com/androiddevelopers/shareables/design/app-shortcuts-design-guidelines.pdf
+[github]:	//github.com/chriscadiz/Demo
 [docs]:	//developer.android.com/guide/topics/ui/shortcuts.html
-
