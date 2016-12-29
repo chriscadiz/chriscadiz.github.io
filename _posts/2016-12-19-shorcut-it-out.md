@@ -2,7 +2,10 @@
 layout: post
 title: Shorcut it out - How to use Android App Shortcuts and Improve User Experience
 ---
+
 Introduced in Android 7.1 Nougat (API level 25), App Shortcuts allow users a new way to interact with your apps from the launcher. You can define static shortcuts in xml and dynamic shorcuts in code using the ShortcutManager API.
+
+![Cut it out]({{ site.baseurl }}/assets/images/cut-it-out.gif "Cut it out"){: .image}
 
 Longpressing your app icon from the launcher will bring up a list of up to five shortcuts. Users can then either tap to open the shortcuts or pin shortcuts to the home screen. What this means is that users can get to activities they care about with fewer taps.
 
