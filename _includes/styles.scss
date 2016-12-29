@@ -318,6 +318,12 @@ body {
     amp-img, amp-youtube {
       margin-top: 30px;
     }
+    .image {
+      max-width: 360px;
+      @include respond-to(480) {
+        width:100%;
+      }
+    }
     figure {
       margin: 0;
       padding: 0;

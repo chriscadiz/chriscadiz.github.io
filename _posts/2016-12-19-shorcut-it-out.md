@@ -4,9 +4,9 @@ title: Shorcut it out - How to use Android App Shortcuts and Improve Usability
 ---
 Introduced in Android 7.1 Nougat (API level 25), App Shortcuts allow users a new way to interact with your apps from the launcher. You can define static shortcuts in xml and dynamic shorcuts in code using the ShortcutManager API.
 
-Longpressing your app icon from the launcher will bring up a list of up to five shortcuts. Users can then either click to open the shortcuts or pin shortcuts to the home screen. What this means is that users can get to activities they care about with fewer taps.
+Longpressing your app icon from the launcher will bring up a list of up to five shortcuts. Users can then either tap to open the shortcuts or pin shortcuts to the home screen. What this means is that users can get to activities they care about with fewer taps.
 
-![Android Nougat Shortcuts]({{ site.baseurl }}/assets/images/android-shortcut.gif "Android Nougat Shortcuts")
+![Android Nougat Shortcuts]({{ site.baseurl }}/assets/images/android-shortcut.gif "Android Nougat Shortcuts"){: .image}
 
 ### Static Shortcuts
 
@@ -69,7 +69,7 @@ Of note are the `<intent>` elements, which define the Intents the shortcuts will
 </shortcuts>
 {% endhighlight %}
 
-![Static Shortcuts]({{ site.baseurl }}/assets/images/static-shortcut.jpg "Android Static Shortcuts")
+![Static Shortcuts]({{ site.baseurl }}/assets/images/static-shortcut.jpg "Android Static Shortcuts"){: .image}
 
 _Static shorcuts in the launcher_
 
@@ -109,7 +109,7 @@ ShortcutInfo profileShortcut = new ShortcutInfo.Builder(context, "kim_profile")
 shortcutManager.setDynamicShortcuts(Arrays.asList(messageShortcut, profileShortcut));
 {% endhighlight %}
 
-![Dynamic Shortcuts]({{ site.baseurl }}/assets/images/dynamic-shortcut.jpg "Android Dynamic Shortcuts")
+![Dynamic Shortcuts]({{ site.baseurl }}/assets/images/dynamic-shortcut.jpg "Android Dynamic Shortcuts"){: .image}
 
 _Dynamically added shortcuts in the launcher_
 
@@ -117,7 +117,7 @@ _Dynamically added shortcuts in the launcher_
 
 Whenever a user uses a shortcut or does the equivalent by navigating through your app, call `reportShortcutUsed()`. Launchers will use this information to predict and promote the most likely shortcuts.
 
-If your app allows backup, dynamic shortcuts aren't preserved on restore. The Android team recommends using `getDynamicShortcuts` on launch to check if shortcuts need to be restored.
+If your app allows backup, dynamic shortcuts aren't preserved on restore. The Android team recommends using `getDynamicShortcuts()` on launch to check if shortcuts need to be restored.
 
 ### Further Reading
 
