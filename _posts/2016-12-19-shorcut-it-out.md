@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Shorcut it out - How to use Android App Shortcuts and Improve User Experience
+title: Shortcut it out - How to use Android App Shortcuts and Improve User Experience
 ---
 
-Introduced in Android 7.1 Nougat (API level 25), App Shortcuts allow users a new way to interact with your apps from the launcher. You can define static shortcuts in xml and dynamic shorcuts in code using the ShortcutManager API.
+Introduced in Android 7.1 Nougat (API level 25), App Shortcuts allow users a new way to interact with your apps from the launcher. You can define static shortcuts in xml and dynamic shortcuts in code using the ShortcutManager API.
 
 ![Cut it out]({{ site.baseurl }}/assets/images/cut-it-out.gif "Cut it out"){: .image}
 
@@ -40,7 +40,7 @@ Create the `shortcuts.xml` file and add the shortcut elements. Each element defi
 
 Of note are the `<intent>` elements, which define the Intents the shortcuts will open. You can also add multiple `<intent>` tags to add Intents onto the backstack.
 
-> Sidenote: Follow the Android [App Shorcuts Design Guidelines][design-guidelines] to maintain consistent design.
+> Sidenote: Follow the Android [App Shortcuts Design Guidelines][design-guidelines] to maintain consistent design.
 
 {% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,11 +74,11 @@ Of note are the `<intent>` elements, which define the Intents the shortcuts will
 
 ![Static Shortcuts]({{ site.baseurl }}/assets/images/static-shortcut.jpg "Android Static Shortcuts"){: .image}
 
-_Static shorcuts in the launcher_
+_Static shortcuts in the launcher_
 
 ### Dynamic Shortcuts
 
-Some shortcutable actions may appear depending on context within your app. In our sample app, let's say a user just followed another user with the tag @kimk. Let's present them with a shorcut to view @kimk's profile and a shortcut to message @kimk.
+Some shortcutable actions may appear depending on context within your app. In our sample app, let's say a user just followed another user with the tag @kimk. Let's present them with a shortcut to view @kimk's profile and a shortcut to message @kimk.
 
 Creating dynamic shortcuts is almost just as easy with the `ShortcutManager` API. Just like in xml, the `ShortcutInfo.Builder` shortcuts can have multiple Intents representing the backstack.
 
