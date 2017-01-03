@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Shortcut it out - How to use Android App Shortcuts and Improve User Experience
+permalink: /shortcut-it-out
+redirect_from: /shorcut-it-out
 ---
 
 Introduced in Android 7.1 Nougat (API level 25), App Shortcuts allow users a new way to interact with your apps from the launcher. You can define static shortcuts in xml and dynamic shortcuts in code using the ShortcutManager API.
