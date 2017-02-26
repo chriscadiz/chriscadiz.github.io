@@ -151,11 +151,13 @@ In this post we learned how to use Dagger 2 in Android. We learned that Dagger 2
 
 ### Further Reading
 
+* [Full source for this demo available on GitHub][github]
 * [Google's Documentation on Dagger 2][docs]
 * [Dagger 2 source on Github][source]
 * [Wiki entry for Dependency Inversion Principle][di]
 * [Wiki entry for SOLID][solid]
 
+[github]: //github.com/chriscadiz/DaggerDemo
 [docs]:	//google.github.io/dagger/users-guide
 [source]: //github.com/google/dagger
 [di]: //en.wikipedia.org/wiki/Dependency_inversion_principle
