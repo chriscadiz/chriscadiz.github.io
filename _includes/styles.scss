@@ -307,9 +307,6 @@ body {
       margin-top: 30px;
       margin-bottom: 0;
       color: #333333;
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      hyphens: auto;
     }
     a {
       color: #333333;
@@ -323,6 +320,9 @@ body {
       @include respond-to(480) {
         width:100%;
       }
+    }
+    .full-image {
+      width:100%;
     }
     figure {
       margin: 0;
