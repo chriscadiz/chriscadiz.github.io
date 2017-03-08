@@ -3,6 +3,11 @@ layout: page
 title: Portfolio
 ---
 
+#### [Movement Fitness & Performance][move]{:target="_blank"}
+[![Movement Fitness & Performance]({{ site.baseurl }}/assets/images/movement-fitness.png "Movement Fitness & Performance"){: .full-image}][move]{:target="_blank"}
+
+Here is work that I'm really proud of. I joined the team at Movement, a [local Winnipeg Gym][move]{:target="_blank"}, as VP. This includes doing web design and development, social media management, content production, SEO, and marketing. It has been both challenging and rewarding to say the least.
+
 #### [HotUKDeals][hukd]{:target="_blank"}
 [![HotUKDeals]({{ site.baseurl }}/assets/images/hukd.png "HotUKDeals"){: .full-image}][hukd]{:target="_blank"}
 
@@ -29,3 +34,4 @@ CanRelocate is a Symphony project I worked on back in 2014. The website helps in
 [pepper]: //pepper.com
 [bm]: //play.google.com/store/apps/details?id=com.tippingcanoe.bargainmoose
 [cr]: //canrelocate.com
+[move]: //movementfp.ca
