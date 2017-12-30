@@ -9,7 +9,7 @@ title: Portfolio
 Here is work that I'm really proud of. I joined the team at Movement, a [local Winnipeg Gym][move]{:target="_blank"}, as VP. This includes doing web design and development, social media management, content production, SEO, and marketing. It has been both challenging and rewarding to say the least.
 
 #### [PriceMole Shopify App][pricemole]{:target="_blank"}
-[![PriceMole Shopify]({{ site.baseurl }}/assets/images/pricemole.png | width=700){: .full-image}][pricemole]{:target="_blank" rel="nofollow"}
+[![PriceMole Shopify]({{ site.baseurl }}/assets/images/pricemole.png){: .full-image}][pricemole]{:target="_blank" rel="nofollow"}
 
 PriceMole is a Shopify SaaS app that I developed and marketed, written in Ruby on Rails. It uses a Python backend with Scrapy to scrape prices from competitor websites. The Devops is stack is modern. It's fully dockerized and managed in Github, Semaphore, and Rancher.
 
@@ -19,7 +19,7 @@ PriceMole is a Shopify SaaS app that I developed and marketed, written in Ruby o
 With over 1.5 million users, HotUKDeals is the largest deal hunting community in the United Kingdom. I worked on both the website and the Android app, and had a blast crafting solutions at such a large scale.
 
 #### [Pepper.com][pepper]{:target="_blank" rel="nofollow"}
-[![Pepper.com]({{ site.baseurl }}/assets/images/pepper.png "Pepper.com"){: .full-image}][pepper]{:target="_blank" rel="nofollow"}
+[![Pepper.com]({{ site.baseurl }}/assets/images/pepper.png "Pepper.com"){: .full-image, :width="700px"}][pepper]{:target="_blank" rel="nofollow"}
 
 Pepper.com is an ambitious project that I got to build from the ground up last time I was in Berlin. It's a deal platform written in Laravel that I helped architect and deploy in over 10 countries.
 
