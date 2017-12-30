@@ -8,8 +8,13 @@ title: Portfolio
 
 Here is work that I'm really proud of. I joined the team at Movement, a [local Winnipeg Gym][move]{:target="_blank"}, as VP. This includes doing web design and development, social media management, content production, SEO, and marketing. It has been both challenging and rewarding to say the least.
 
-#### [HotUKDeals][hukd]{:target="_blank"}
-[![HotUKDeals]({{ site.baseurl }}/assets/images/hukd.png "HotUKDeals"){: .full-image}][hukd]{:target="_blank"}
+#### [PriceMole Shopify App][pricemole]{:target="_blank"}
+[![PriceMole Shopify]({{ site.baseurl }}/assets/images/pricemole.png | width=700){: .full-image}][pricemole]{:target="_blank" rel="nofollow"}
+
+PriceMole is a Shopify SaaS app that I developed and marketed, written in Ruby on Rails. It uses a Python backend with Scrapy to scrape prices from competitor websites. The Devops is stack is modern. It's fully dockerized and managed in Github, Semaphore, and Rancher.
+
+#### [HotUKDeals][hukd]{:target="_blank" rel="nofollow"}
+[![HotUKDeals]({{ site.baseurl }}/assets/images/hukd.png "HotUKDeals"){: .full-image}][hukd]{:target="_blank" rel="nofollow"}
 
 With over 1.5 million users, HotUKDeals is the largest deal hunting community in the United Kingdom. I worked on both the website and the Android app, and had a blast crafting solutions at such a large scale.
 
@@ -20,7 +25,7 @@ Pepper.com is an ambitious project that I got to build from the ground up last t
 
 Working on the Android apps was a fun challenge too. We had to build robust, configurable apps with maintainability, internationalization, and localization in mind.
 
-#### [BargainMoose][bm]{:target="_blank"}
+#### [BargainMoose][bm]{:target="_blank" rel="nofollow"}
 [![BargainMoose]({{ site.baseurl }}/assets/images/bargainmoose.png "BargainMoose"){: .full-image}][bm]{:target="_blank"}
 
 A little closer to home, BargainMoose is a Canadian deal community with a focus on content. It's built on a heavily customized Wordpress deployment.
@@ -35,3 +40,4 @@ CanRelocate is a Symphony project I worked on back in 2014. The website helps in
 [bm]: //play.google.com/store/apps/details?id=com.tippingcanoe.bargainmoose
 [cr]: //canrelocate.com
 [move]: //movementfp.ca
+[pricemole]: //apps.shopify.com/pricemole
