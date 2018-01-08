@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey my name is Chris Cadiz.
 
-I'm a mobile developer based in Winnipeg, Canada and I currently work at Arclabs.
+I'm a software developer based in Winnipeg, Canada and I currently work at Arclabs.
 
 I have a deep interest in crypto, learning, entrepreneurship, and technology.
 
