@@ -9,7 +9,7 @@
 title: Chris Cadiz
 email: cadiz.christopher@gmail.com
 description: >
-  Android, iOS, Web developer from Winnipeg, Canada
+  Software Engineer from Winnipeg, Canada
 logo: "/assets/images/icon.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cadiz.ca" # the base hostname & protocol for your site
@@ -17,8 +17,8 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Chris Cadiz'
 bio: >
-  I'm a software developer based in Winnipeg, Canada and I currently work at Arclabs.
-  I have a deep interest in learning, and entrepreneurship, and technology.
+  I'm a software developer based in Winnipeg, Canada.
+  I have a deep interest in learning, entrepreneurship, and technology.
 author_image: "/assets/images/chriscadiz.jpg"
 twitter_username: chris_cadiz
 github_username:  chriscadiz
